@@ -9,10 +9,6 @@ class Phanbon(models.Model):
       ten = models.CharField(max_length=255)
       thongtin = models.CharField(max_length=255)
       
-class TBVTV(models.Model):
-      ten = models.CharField(max_length=255)
-      thongtin = models.CharField(max_length=255)
-
-class Giong(models.Model):
+      class Phanbon(models.Model):
       ten = models.CharField(max_length=255)
       thongtin = models.CharField(max_length=255)
