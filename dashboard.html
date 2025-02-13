@@ -1,0 +1,260 @@
+<html>
+ <head>
+  <title>
+   Admin Dashboard
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Inter', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-20 bg-white h-screen flex flex-col items-center py-4">
+    <img alt="Logo" class="mb-6" height="40" src="https://storage.googleapis.com/a1aa/image/LG7r0aZuEu7PW1o3i0KBh0wnqMjjpVS0k7TD_aDsiVQ.jpg" width="40"/>
+    <div class="flex flex-col space-y-4">
+     <i class="fas fa-home text-gray-500 text-xl">
+     </i>
+     <i class="fas fa-chart-bar text-gray-500 text-xl">
+     </i>
+     <i class="fas fa-calendar-alt text-gray-500 text-xl">
+     </i>
+     <i class="fas fa-users text-gray-500 text-xl">
+     </i>
+     <i class="fas fa-cog text-gray-500 text-xl">
+     </i>
+    </div>
+   </div>
+   <!-- Main Content -->
+   <div class="flex-1 p-6">
+    <!-- Header -->
+    <div class="flex justify-between items-center mb-6">
+     <div>
+      <h1 class="text-2xl font-bold">
+       Hello Admin!
+      </h1>
+      <p class="text-gray-500">
+       Measure How Fast You’re Growing Monthly Recurring performance management.
+      </p>
+     </div>
+     <div class="flex items-center space-x-4">
+      <div class="flex items-center bg-white p-2 rounded-lg shadow">
+       <select class="text-gray-500 outline-none">
+        <option>
+         Year
+        </option>
+       </select>
+       <input class="ml-2 outline-none" placeholder="Search..." type="text"/>
+       <i class="fas fa-search text-gray-500">
+       </i>
+      </div>
+      <div class="flex items-center space-x-2">
+       <img alt="Flag" class="rounded-full" height="20" src="https://storage.googleapis.com/a1aa/image/L6drtzh9vapcjPWyhEOlrshrmA2VNqMHbUBZUzCths0.jpg" width="20"/>
+       <span class="text-gray-500">
+        English
+       </span>
+       <i class="fas fa-chevron-down text-gray-500">
+       </i>
+      </div>
+      <div class="flex items-center space-x-2">
+       <i class="fas fa-bell text-gray-500">
+       </i>
+       <img alt="User" class="rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/vSeSs9a_WE03AMcb_ouKeJWk7Y8TQxA6EYTu908xwEE.jpg" width="40"/>
+      </div>
+      <button class="bg-orange-500 text-white px-4 py-2 rounded-lg">
+       + Create Notice
+      </button>
+     </div>
+    </div>
+    <!-- Overview Cards -->
+    <div class="grid grid-cols-6 gap-4 mb-6">
+     <div class="bg-white p-4 rounded-lg shadow flex items-center justify-between">
+      <div>
+       <h2 class="text-2xl font-bold">
+        348
+       </h2>
+       <p class="text-gray-500">
+        Users
+       </p>
+      </div>
+      <i class="fas fa-user text-orange-500 text-2xl">
+      </i>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow flex items-center justify-between">
+      <div>
+       <h2 class="text-2xl font-bold">
+        128
+       </h2>
+       <p class="text-gray-500">
+        Events
+       </p>
+      </div>
+      <i class="fas fa-calendar-alt text-blue-500 text-2xl">
+      </i>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow flex items-center justify-between">
+      <div>
+       <h2 class="text-2xl font-bold">
+        10
+       </h2>
+       <p class="text-gray-500">
+        Holidays
+       </p>
+      </div>
+      <i class="fas fa-umbrella-beach text-yellow-500 text-2xl">
+      </i>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow flex items-center justify-between">
+      <div>
+       <h2 class="text-2xl font-bold">
+        3458
+       </h2>
+       <p class="text-gray-500">
+        Payrolls
+       </p>
+      </div>
+      <i class="fas fa-dollar-sign text-green-500 text-2xl">
+      </i>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow flex items-center justify-between">
+      <div>
+       <h2 class="text-2xl font-bold">
+        3488
+       </h2>
+       <p class="text-gray-500">
+        Reports
+       </p>
+      </div>
+      <i class="fas fa-file-alt text-purple-500 text-2xl">
+      </i>
+     </div>
+    </div>
+    <!-- Charts and Stats -->
+    <div class="grid grid-cols-3 gap-4">
+     <!-- Salary Statistics -->
+     <div class="bg-white p-4 rounded-lg shadow col-span-2">
+      <div class="flex justify-between items-center mb-4">
+       <h2 class="text-lg font-bold">
+        Salary Statistics
+       </h2>
+       <div class="flex items-center space-x-2">
+        <select class="text-gray-500 outline-none">
+         <option>
+          Sort by
+         </option>
+        </select>
+        <i class="fas fa-chevron-down text-gray-500">
+        </i>
+       </div>
+      </div>
+      <img alt="Salary Statistics Chart" class="w-full" height="200" src="https://storage.googleapis.com/a1aa/image/p2whEmKHbz6CvsW9h_NSOkHxfcJae5EPlPICRY6CY-s.jpg" width="600"/>
+     </div>
+     <!-- Employee Satisfaction -->
+     <div class="bg-white p-4 rounded-lg shadow">
+      <div class="flex justify-between items-center mb-4">
+       <h2 class="text-lg font-bold">
+        Employee Satisfaction
+       </h2>
+       <i class="fas fa-ellipsis-h text-gray-500">
+       </i>
+      </div>
+      <div class="flex items-center justify-center">
+       <div class="relative">
+        <img alt="Employee Satisfaction Chart" class="w-full" height="150" src="https://storage.googleapis.com/a1aa/image/CN64PF1eNA10CoWTdEk6Wmzz9tjwHvP5uZ-zcY7HQA8.jpg" width="150"/>
+        <div class="absolute inset-0 flex items-center justify-center">
+         <span class="text-2xl font-bold">
+          74%
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- Performance Statistics -->
+     <div class="bg-white p-4 rounded-lg shadow col-span-1">
+      <div class="flex justify-between items-center mb-4">
+       <h2 class="text-lg font-bold">
+        Performance Statistics
+       </h2>
+       <i class="fas fa-ellipsis-h text-gray-500">
+       </i>
+      </div>
+      <div class="space-y-2">
+       <div class="flex justify-between items-center">
+        <span>
+         Developer Team
+        </span>
+        <span>
+         65%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-2">
+        <div class="bg-blue-500 h-2 rounded-full" style="width: 65%">
+        </div>
+       </div>
+       <div class="flex justify-between items-center">
+        <span>
+         Design Team
+        </span>
+        <span>
+         84%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-2">
+        <div class="bg-green-500 h-2 rounded-full" style="width: 84%">
+        </div>
+       </div>
+       <div class="flex justify-between items-center">
+        <span>
+         Marketing Team
+        </span>
+        <span>
+         28%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-2">
+        <div class="bg-yellow-500 h-2 rounded-full" style="width: 28%">
+        </div>
+       </div>
+       <div class="flex justify-between items-center">
+        <span>
+         Management Team
+        </span>
+        <span>
+         16%
+        </span>
+       </div>
+       <div class="w-full bg-gray-200 rounded-full h-2">
+        <div class="bg-red-500 h-2 rounded-full" style="width: 16%">
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- New Employees -->
+     <div class="bg-white p-4 rounded-lg shadow col-span-2">
+      <div class="flex justify-between items-center mb-4">
+       <h2 class="text-lg font-bold">
+        New Employees
+       </h2>
+       <div class="flex items-center space-x-2">
+        <select class="text-gray-500 outline-none">
+         <option>
+          Sort by
+         </option>
+        </select>
+        <i class="fas fa-chevron-down text-gray-500">
+        </i>
+       </div>
+      </div>
+      <img alt="New Employees Chart" class="w-full" height="200" src="https://storage.googleapis.com/a1aa/image/c6p8HvA1hF4tHtAi6BlDcdXTDQZmtUT1zFpHTDUq_ZI.jpg" width="600"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
